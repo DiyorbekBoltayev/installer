@@ -5,7 +5,8 @@ use Illuminate\Support\Facades\Facade;
 return [
 
     /*
-    |--------------------------------------------------------------------------
+    |-----------------------------------
+    ---------------------------------------
     | Application Name
     |--------------------------------------------------------------------------
     |
@@ -181,6 +182,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        RachidLaasri\LaravelInstaller\Providers\LaravelInstallerServiceProvider::class,
 
         /*
          * Package Service Providers...
